@@ -5,7 +5,6 @@ def main():
         return sys.exit(1)
     from stats import get_num_words
     from stats import count_letters
-#    print(count_letters(sys.argv[2]))
     from stats import sorting  
     words = (get_num_words(sys.argv[1]))
     to_print = (sorting(count_letters(sys.argv[1])))
